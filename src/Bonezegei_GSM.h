@@ -23,6 +23,7 @@ public:
 private:
   HardwareSerial *s;
   Bonezegei_SoftSerial* softserial;
+  uint8_t ser;  //serial selected 0 for hardware serial and 1 for softserial
 };
 
 
