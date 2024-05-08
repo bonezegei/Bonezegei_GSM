@@ -2,6 +2,7 @@
   This Library is written for GSM
   Author: Bonezegei (Jofel Batutay)
   Date: August 2023 
+  Updated May 2024
 */
 
 #include "Bonezegei_GSM.h"
@@ -14,7 +15,7 @@ Bonezegei_GSM::Bonezegei_GSM(const HardwareSerial& se) {
   s = (HardwareSerial*)&se;
 }
 
-Bonezegei_GPS::Bonezegei_GSM(Bonezegei_SoftSerial& serial) {
+Bonezegei_GSM::Bonezegei_GSM(Bonezegei_SoftSerial& serial) {
   ser = 1;
   softserial = (Bonezegei_SoftSerial*)&serial;
 }
